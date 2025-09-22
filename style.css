@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e0f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.score {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.game-board {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.mole {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: gray;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.restart {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.restart:hover {
+  background-color: #004d40;
+}
+
+/* Predefined active class for future JS */
+.active {
+  background-color: green !important;
+}
